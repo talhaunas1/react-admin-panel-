@@ -4,7 +4,7 @@ import './featured.scss'
 const featured = () => {
   return (
     <div className='featured'>
-      featured
+      featured casrasjlas
     </div>
   )
 }
