@@ -4,7 +4,7 @@ import './list.scss'
 const List = () => {
   return (
     <div>
-      List akljlfklajlfa
+      List aisflai
     </div>
   )
 }
