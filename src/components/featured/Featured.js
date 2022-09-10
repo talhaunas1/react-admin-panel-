@@ -24,23 +24,23 @@ const featured = () => {
         <div className='summary'>
           <div className='item'>
             <div className='itemTitle'>Target</div>
-            <div className='itemResult'>
+            <div className='itemResult negitive'>
             <KeyboardArrowDownIcon  fontSize='small' /> 
             <div className='resultAmount'>$18k</div>
             </div>
           </div>
           <div className='item'>
-            <div className='itemTitle'>Target</div>
-            <div className='itemResult'>
-            <KeyboardArrowDownIcon  fontSize='small' /> 
-            <div className='resultAmount'>$18k</div>
+            <div className='itemTitle'>Last week</div>
+            <div className='itemResult positive'>
+            <KeyboardArrowUpOutlinedIcon  fontSize='small' /> 
+            <div className='resultAmount'>$17k</div>
             </div>
           </div>
           <div className='item'>
-            <div className='itemTitle'>Target</div>
-            <div className='itemResult'>
-            <KeyboardArrowDownIcon  fontSize='small' /> 
-            <div className='resultAmount'>$18k</div>
+            <div className='itemTitle'>last month</div>
+            <div className='itemResult positive'>
+            <KeyboardArrowUpOutlinedIcon  fontSize='small' /> 
+            <div className='resultAmount'>$43k</div>
             </div>
           </div>
           

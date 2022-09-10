@@ -5,6 +5,7 @@ import Widget from '../../components/widgets/Widget'
 import Featured from '../../components/featured/Featured'
 import './home.scss'
 import Chart from '../../components/chart/Chart'
+import Table from '../../components/table/Table'
 // import { Link } from 'react-router-dom'
 
 const Home = () => {
@@ -23,7 +24,10 @@ const Home = () => {
         <div className='charts'>
           <Featured/>
           <Chart/>
-
+        </div>
+        <div className='listContainer'>
+          <div className='listTitle'>latest transaction</div>
+          <Table/>
         </div>
       </div>
     </div>
